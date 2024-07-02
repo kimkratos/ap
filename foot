@@ -10,9 +10,7 @@ window.onload = function() {
             {
                 name: 'Song name',
                 artist: 'Artist name',
-                url: '/music/file.mp3',  // 确保路径正确
-                cover: '/images/cover.jpg',  // 封面图片路径
-                lrc: '/lrc/file.lrc'  // 歌词文件路径
+                url: '/root/app/uploads/music/ajar_Of_Love.m4a' // 确保路径正确
             }
         ]
     });
