@@ -1,0 +1,20 @@
+<div id="aplayer"></div>
+<script src="/js/APlayer.min.js"></script>
+<script>
+window.onload = function() {
+    const ap = new APlayer({
+        container: document.getElementById('aplayer'),
+        fixed: true,
+        autoplay: false,
+        audio: [
+            {
+                name: 'Song name',
+                artist: 'Artist name',
+                url: '/music/file.mp3',  // 确保路径正确
+                cover: '/images/cover.jpg',  // 封面图片路径
+                lrc: '/lrc/file.lrc'  // 歌词文件路径
+            }
+        ]
+    });
+};
+</script>
